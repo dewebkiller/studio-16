@@ -1,0 +1,303 @@
+@media only screen and (max-width: 768px) {
+.top-bar{
+    position: relative!important;
+}
+.top-bar ul{
+    color: #000!important;
+}
+.rotate{
+	transform: rotate(0deg)!important;
+}
+.img-wrap img {
+    object-fit: cover!important;
+    position: relative;
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.img-wrap:after {
+    position: absolute;
+    top:39.25%;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 18%;
+    background: rgba(39, 39, 39, 0.7);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+header:before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+.w-h-200{
+    width: 330px!important;
+    height: 220px!important;
+}
+.img-wrap img {
+    object-fit: cover!important;
+    position: relative;
+    top: 0%;
+    left: 0px;
+    width: 100%;
+    -webkit-transform: rotate(0deg);
+}
+.top-120, .top-25, .top-80, .top-54{
+    top: 0%!important;
+    left: 0%!important;
+}
+.facilitiy .w-50{
+    width: 100%!important;
+}
+.caption-1{
+top: 21%;
+width: 100%;
+text-align: center;
+}
+.caption{
+top: 42%;
+width: 100%;
+text-align: center;
+}
+.caro-text h1{
+    font-size: 22px!important;
+}
+header{
+    position: relative!important
+}
+.slider .carousel-inner img{
+    width: 100%!important;
+    height: 100%!important;
+    object-fit: cover!important;
+}
+.large-logo{
+    display: none!important;
+}
+.mobile-logo{
+    display: block!important;
+}
+.slider .carousel-item {
+    height: 400px!important;
+    width:100%!important;
+}
+.upper-sec{
+    color: #000!important;
+}
+nav .text-white{
+    color: #000!important;
+}
+nav{
+    background-color: #fff!important;
+}
+.ft-12 {
+  font-size: 0.6rem !important;
+}
+.membership .w-50{
+    width: 100%!important;
+}
+.mod-accomodation-wrap .content-wrap {
+    transform: translateX(0px);
+    transition: all 0.3s ease-in-out;
+}
+.mod-accomodation-wrap .image-wrap {
+    width: 100%;
+}
+.specificservice img{
+    width: 100%!important;
+    height: auto!important;
+}
+.specificservice figure:before {
+    content: "";
+    width: 92%;
+    height: 92%;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, black 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%);
+    position: absolute;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+}
+.specificservice h3{
+    font-size: 18px!important;
+    padding: 8px 10px!important;
+}
+.places-to-go p{
+    font-size: 13px!important;
+}
+.carousel-control-prev, .carousel-control-next{
+    top: -50%!important;
+}
+
+#reviews .form-group input{
+    width: 80%!important;
+}
+.top-bar{
+    border-bottom: 1px solid #ddd;
+}
+.top-bar .ft-12{
+    font-size: 13px!important;
+}
+.fancyheading:after {
+    left: 46%;
+    top: 47%;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+}
+.fancyheading:before {
+    left: 46%;
+    top: 46.36%;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+    border-radius: 100%;
+}
+.fancy-heading:after {
+    left: 45%;
+    top: 18%;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+}
+.fancy-heading:before {
+    left: 45%;
+    top: 17.25%;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+    border-radius: 100%;
+}
+.fancy:after {
+    left: 40%;
+    top: 25%;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+}
+.fancy:before {
+    left: 40%;
+    top: 23.9%;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+    border-radius: 100%;
+}
+img.w-50{
+    width:100%!important;
+}
+}
+@media only screen and (min-width: 992px) and (max-width: 1100px){
+    
+.fancyheading:after {
+    left: 40%;
+    top: 47%;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+}
+.fancyheading:before {
+    left: 40%;
+    top: 45.7%;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+    border-radius: 100%;
+}
+.fancy-heading:after {
+    left: 40%;
+    top: 21%;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+}
+.fancy-heading:before {
+    left: 40%;
+    top: 20.25%;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+    border-radius: 100%;
+}
+.fancy:after {
+    left: 40%;
+    top: 25%;
+    width: 60px;
+    height: 2px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+}
+.fancy:before {
+    left: 40%;
+    top: 23.9%;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    content: '';
+    background: var(--theme-primary-color)!important;
+    border-radius: 100%;
+}
+.places-to-go .w-100{
+    width:90%!important;
+}
+}
+@media (min-width:769px){
+
+.caption{
+top: 50%!important;
+left: 18%!important;
+text-align: center;
+}
+.caption-1{
+top: 18%!important;
+left: 18%!important;
+text-align: center;
+}
+.large-logo{
+    display: block!important;
+    color: #fff !important;
+    padding: 0;
+}
+.mobile-logo{
+    display: none!important;
+}
+.slider .carousel-control-prev, .slider .carousel-control-next{
+    top: -15%!important;
+}
+}
+@media (max-width:400px){
+    .w-h-200{
+        width:100%!important;
+        height:220px!important;
+    }
+    .inner-featuresWrap h5{
+        font-size:16px;
+    }
+}

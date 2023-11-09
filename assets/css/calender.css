@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+.booking-area {
+    width: 100%;
+    position: absolute;
+	z-index:1
+}
+a {text-decoration:none !important}
+
+.booking-area .box-select .select {
+    width: 25%;
+    float: left;
+    margin: 18px 0;
+	font-size:16px;
+}
+.select .submit-box {
+    border: 0 !important;
+    background: url(../images/booking-btn-bg.png);
+	margin: 0 !important;
+    text-align: center;
+    display: block;
+    height: 159px;
+    line-height: 159px;
+	border:0 !important
+}
+.search-form {
+    background: #ffffff;
+    max-width: 900px;
+    border-radius: 50px 0px 50px 0px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 1px;
+    width: 100%;
+	top: -90px;
+}
+.booking-area .box-select .select label{font-size:15px;color:#0f172b;margin:0}
+.booking-area .select.button button{background:transparent;border:0;text-transform:uppercase;}
+.promo-box input {outline:none;color: #d40e03;border: 1px dashed #ccc !important;}
+.ui-widget-content {
+    border-radius: 0 !important;
+	padding:0 !important
+}
+.ui-widget-header {
+    border: 1px solid #051e40 !important;
+    background: var(--theme-primary-color)!important;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 0 !important;
+}
+.ui-datepicker {
+    width: auto !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	border:0 !important;
+    background: transparent !important;
+    color: #051e40;
+    text-align: center !important;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+	padding:0 !important;
+}
+.ui-datepicker td {
+    padding: 0.35rem !important;
+    border: 1px solid #cccccc !important;
+    background: #f6f6f6;
+    font-weight: bold;
+    color: #9E9E9E;
+}
+td.ui-datepicker-current-day {
+    background: #0f1629;
+
+}
+td.ui-datepicker-current-day a{
+    color: #fff !important;
+}
+.ui-datepicker table {
+    margin: 0 !important;
+}
